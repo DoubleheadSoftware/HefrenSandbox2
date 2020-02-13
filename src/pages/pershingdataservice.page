@@ -1,0 +1,3 @@
+<apex:page contentType="application/xml" showHeader="false"  controller="PershingWebService" action="{!Init}">
+    <apex:outputText value="{!xmlString}" escape="false"/>
+</apex:page>
